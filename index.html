@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Play Piano</title>
+</head>
+<body>
+    <div class="main">
+        <div id="piano">
+            <div class="cab">
+                <h1>Play Piano</h1>
+                <div class="volume">
+                    <h1>Volume</h1>
+                    <input type="range" min="0" max="100" step="1" value="50" id="volume">
+                </div>
+            </div>
+            <ul>
+                <li class="key white--key" data-key="a">A</li>
+                <li class="key black--key" data-key="d">D</li>
+                <li class="key white--key" data-key="e">E</li>
+                <li class="key black--key" data-key="g">G</li>
+                <li class="key white--key" data-key="h">H</li>
+                <li class="key black--key" data-key="j">J</li>
+                <li class="key white--key" data-key="k">K</li>
+                <li class="key white--key" data-key="l">L</li>
+                <li class="key black--key" data-key="s">S</li>
+                <li class="key white--key" data-key="t">T</li>
+                <li class="key black--key" data-key="u">U</li>
+                <li class="key white--key" data-key="w">W</li>
+                <li class="key white--key" data-key="y">Y</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="engine.js"></script>
+</body>
+</html>
